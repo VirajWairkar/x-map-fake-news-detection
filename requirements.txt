@@ -1,0 +1,15 @@
+torch
+torchvision
+transformers
+pandas
+numpy
+scipy
+scikit-learn
+Pillow
+requests
+matplotlib
+tqdm
+lime
+grad-cam
+jupyterlab
+ipykernel

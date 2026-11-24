@@ -1,0 +1,37 @@
+# Python and notebook caches
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+# Downloaded data and images (existing test_public.csv is retained)
+Fakeddit/
+fakeNewsNet/
+fakeddit_images/
+multimodal_only_samples/
+train.csv
+validate.csv
+# Generated model checkpoints and training logs
+*.pth
+*.pt
+*.pkl
+*.joblib
+*.safetensors
+runs/
+logs/
+checkpoints/
+results/
+# Local archives, drafts, and reference collections
+*.zip
+~$*
+research_papers/
+new_papers/
+old_papers/

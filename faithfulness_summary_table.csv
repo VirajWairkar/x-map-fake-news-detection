@@ -1,0 +1,7 @@
+Test,Mean prob. drop,Std
+LIME - top-k tokens removed,0.11805852117712598,0.2419990053980701
+LIME - random tokens removed,0.04423406261457018,0.12062157121261001
+Grad-CAM - top-k region masked,0.05654633377330849,0.13087654480364308
+Grad-CAM - random region masked,0.00406388994755156,0.07128188512711313
+Cross-modal - top text + top image (joint),0.19419685664414205,0.30516209781309533
+Cross-modal - additive expectation (text-only + image-only),0.17460485495043448,0.3085292427109195
